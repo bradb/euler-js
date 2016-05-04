@@ -18,8 +18,8 @@
       find(function(val) {
         numString = val.toString();
         return numString === numString.split('').reverse().join('');
-      })
-  }
+      });
+  };
 
   console.log(largestPalindrome());
 }());

@@ -12,7 +12,7 @@
     }
 
     return sum;
-  }
+  };
 
   console.log(problem1(1000));
 }());
