@@ -1,7 +1,10 @@
 var problem1 = function(max) {
-  var sum = 0;
+  'use strict';
 
-  for (var i = 0; i < max; i++) {
+  var sum = 0;
+  var i;
+
+  for (i = 0; i < max; i++) {
     if (i % 3 === 0 || i % 5 === 0) {
       sum += i;
     }
