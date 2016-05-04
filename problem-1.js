@@ -1,16 +1,18 @@
-var problem1 = function(max) {
+(function() {
   'use strict';
 
-  var sum = 0;
-  var i;
+  var problem1 = function(max) {
+    var sum = 0;
+    var i;
 
-  for (i = 0; i < max; i++) {
-    if (i % 3 === 0 || i % 5 === 0) {
-      sum += i;
+    for (i = 0; i < max; i++) {
+      if (i % 3 === 0 || i % 5 === 0) {
+        sum += i;
+      }
     }
+
+    return sum;
   }
 
-  return sum;
-}
-
-console.log(problem1(1000));
+  console.log(problem1(1000));
+}());
